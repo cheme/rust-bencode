@@ -187,9 +187,9 @@
   ```
 */
 
-#![feature(core, old_io, std_misc, io, test)]
+#![feature(core, old_io, std_misc, io, test, convert)]
 
-extern crate "rustc_serialize" as rustc_serialize;
+extern crate rustc_serialize;
 
 use std::old_io::{self, IoResult, IoError};
 use std::fmt;
